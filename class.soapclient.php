@@ -9,20 +9,6 @@
 *
 * usage:
 *
-* // instantiate client with server info
-* $soapclient = new nusoap_client( string path [ ,mixed wsdl] );
-*
-* // call method, get results
-* echo $soapclient->call( string methodname [ ,array parameters] );
-*
-* // bye bye client
-* unset($soapclient);
-*
-* @author   Dietrich Ayala <dietrich@ganx4.com>
-* @author   Scott Nichol <snichol@users.sourceforge.net>
-* @version  $Id: class.soapclient.php,v 1.69 2010/04/26 20:15:08 snichol Exp $
-* @access   public
-*/
 class nusoap_client extends nusoap_base  {
 
 	var $username = '';				// Username for HTTP authentication

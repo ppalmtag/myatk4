@@ -24,9 +24,6 @@ class nusoap_xmlschema extends nusoap_base  {
 	var $schemaTargetNamespace = '';
 	// types, elements, attributes defined by the schema
 	var $attributes = array();
-	var $complexTypes = array();
-	var $complexTypeStack = array();
-	var $currentComplexType = null;
 	var $elements = array();
 	var $elementStack = array();
 	var $currentElement = null;
