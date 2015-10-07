@@ -15,6 +15,8 @@
 * @access   public
 */
 class soapval extends nusoap_base {
+
+	private $info = ''; // just for information
 	/**
 	 * The XML element name
 	 *
