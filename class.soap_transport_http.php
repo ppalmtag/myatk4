@@ -14,19 +14,6 @@
 */
 class soap_transport_http extends nusoap_base {
 
-	var $url = '';
-	var $uri = '';
-	var $digest_uri = '';
-	var $scheme = '';
-	var $host = '';
-	var $port = '';
-	var $path = '';
-	var $request_method = 'POST';
-	var $protocol_version = '1.0';
-	var $encoding = '';
-	var $outgoing_headers = array();
-	var $incoming_headers = array();
-	var $incoming_cookies = array();
 	var $outgoing_payload = '';
 	var $incoming_payload = '';
 	var $response_status_line;	// HTTP response status line
@@ -81,6 +68,7 @@ class soap_transport_http extends nusoap_base {
 		$this->debug("setCurlOption option=$option, value=");
 		$this->appendDebug($this->varDump($value));
 		curl_setopt($this->ch, $option, $value);
+		new Honk();
 	}
 
 	/**
