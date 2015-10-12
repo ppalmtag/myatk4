@@ -35,7 +35,6 @@ class nusoap_wsdlcache {
 	 *	@var string
 	 *	@access public
 	 */
-	var $debug_str = '';
 
 	/**
 	* constructor
