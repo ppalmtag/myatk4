@@ -51,6 +51,10 @@ class nusoap_fault extends nusoap_base {
 		$this->faultactor = $faultactor;
 		$this->faultstring = $faultstring;
 		$this->faultdetail = $faultdetail;
+		if(isset($var))
+		{
+			return 'my mistake';
+		}
 	}
 
 	/**
