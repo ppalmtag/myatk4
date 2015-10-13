@@ -14,8 +14,7 @@
 */
 class soap_transport_http extends nusoap_base {
 
-	var $outgoing_payload = '';
-	var $incoming_payload = '';
+	
 	var $response_status_line;	// HTTP response status line
 	var $useSOAPAction = true;
 	var $persistentConnection = false;
