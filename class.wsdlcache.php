@@ -30,12 +30,6 @@ class nusoap_wsdlcache {
 	 *	@var string
 	 *	@access private
 	 */
-	var $cache_dir;
-	/**
-	 *	@var string
-	 *	@access public
-	 */
-
 	/**
 	* constructor
 	*
