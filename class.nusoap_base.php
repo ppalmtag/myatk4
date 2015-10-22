@@ -84,13 +84,14 @@ $GLOBALS['_transient']['static']['nusoap_base']['globalDebugLevel'] = 9;
 */
 class nusoap_base {
 
+
 	/**
 	 * Version for HTTP headers.
 	 *
 	 * @var string
 	 * @access private
 	 */
-	var $version = '0.9.5';
+	var $version = '0.9.5.7';
 	/**
 	 * CVS revision for HTTP headers.
 	 *
