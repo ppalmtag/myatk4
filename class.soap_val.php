@@ -1,7 +1,7 @@
 <?php
 
 
-
+$var;
 
 /**
 * For creating serializable abstractions of native PHP types.  This class
@@ -17,13 +17,7 @@
 class soapval extends nusoap_base {
 
 	private $info = ''; // just for information
-	/**
-	 * The XML element name
-	 *
-	 * @var string
-	 * @access private
-	 */
-	var $name;
+
 	/**
 	 * The XML type name (string or false)
 	 *
