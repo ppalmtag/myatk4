@@ -1,0 +1,31 @@
+From f86e5613083ad349ba5b1b77194518fae4e8a62d Mon Sep 17 00:00:00 2001
+From: Philipp Palmtag <palmtag@wd-plus.de>
+Date: Tue, 27 Oct 2015 15:55:52 +0100
+Subject: [PATCH 4/4] removed another va
+
+---
+ class.soap_val.php | 8 +-------
+ 1 file changed, 1 insertion(+), 7 deletions(-)
+
+diff --git a/class.soap_val.php b/class.soap_val.php
+index 00e7648..7dd6341 100644
+--- a/class.soap_val.php
++++ b/class.soap_val.php
+@@ -17,13 +17,7 @@
+ class soapval extends nusoap_base {
+ 
+ 	private $info = ''; // just for information
+-	/**
+-	 * The XML element name
+-	 *
+-	 * @var string
+-	 * @access private
+-	 */
+-	var $name;
++
+ 	/**
+ 	 * The XML type name (string or false)
+ 	 *
+-- 
+2.5.3.windows.1
+

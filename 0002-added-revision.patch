@@ -1,0 +1,32 @@
+From 43816c9d049e9873d1504fcbdcd66cee1ce6e69b Mon Sep 17 00:00:00 2001
+From: Philipp Palmtag <palmtag@wd-plus.de>
+Date: Thu, 22 Oct 2015 16:19:45 +0200
+Subject: [PATCH 2/4]  added revision
+
+---
+ class.nusoap_base.php | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/class.nusoap_base.php b/class.nusoap_base.php
+index 03cb1a7..b4d4aed 100644
+--- a/class.nusoap_base.php
++++ b/class.nusoap_base.php
+@@ -84,13 +84,14 @@ $GLOBALS['_transient']['static']['nusoap_base']['globalDebugLevel'] = 9;
+ */
+ class nusoap_base {
+ 
++
+ 	/**
+ 	 * Version for HTTP headers.
+ 	 *
+ 	 * @var string
+ 	 * @access private
+ 	 */
+-	var $version = '0.9.5';
++	var $version = '0.9.5.7';
+ 	/**
+ 	 * CVS revision for HTTP headers.
+ 	 *
+-- 
+2.5.3.windows.1
+

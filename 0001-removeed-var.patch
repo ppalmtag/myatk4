@@ -1,0 +1,31 @@
+From bb5a901d5cd5c67ba40cf3b1a909deeb5030a9e9 Mon Sep 17 00:00:00 2001
+From: Philipp Palmtag <palmtag@wd-plus.de>
+Date: Thu, 22 Oct 2015 15:44:26 +0200
+Subject: [PATCH 1/4] removeed var
+
+---
+ class.nusoap_base.php | 8 +-------
+ 1 file changed, 1 insertion(+), 7 deletions(-)
+
+diff --git a/class.nusoap_base.php b/class.nusoap_base.php
+index 4ed92a7..03cb1a7 100644
+--- a/class.nusoap_base.php
++++ b/class.nusoap_base.php
+@@ -83,13 +83,7 @@ $GLOBALS['_transient']['static']['nusoap_base']['globalDebugLevel'] = 9;
+ * @access   public
+ */
+ class nusoap_base {
+-	/**
+-	 * Identification for HTTP headers.
+-	 *
+-	 * @var string
+-	 * @access private
+-	 */
+-	var $title = 'NuSOAP';
++
+ 	/**
+ 	 * Version for HTTP headers.
+ 	 *
+-- 
+2.5.3.windows.1
+
