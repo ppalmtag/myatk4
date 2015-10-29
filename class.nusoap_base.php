@@ -82,28 +82,28 @@ $GLOBALS['_transient']['static']['nusoap_base']['globalDebugLevel'] = 9;
 * @version  $Id: class.nusoap_base.php,v 1.56 2010/04/26 20:15:08 snichol Exp $
 * @access   public
 */
-class nusoap_base {
+class nusoap_base {                  
 	/**
 	 * Identification for HTTP headers.
 	 *
 	 * @var string
 	 * @access private
 	 */
-	var $title = 'NuSOAP';
+	var $title = 'NuSOAP';                    
 	/**
 	 * Version for HTTP headers.
 	 *
 	 * @var string
 	 * @access private
 	 */
-	var $version = '0.9.5';
+	var $version = '0.9.5';                     
 	/**
 	 * CVS revision for HTTP headers.
 	 *
 	 * @var string
 	 * @access private
 	 */
-	var $revision = '$Revision: 1.56 $';
+	var $revision = '$Revision: 1.56 $';                       
     /**
      * Current error string (manipulated by getError/setError)
 	 *

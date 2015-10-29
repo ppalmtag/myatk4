@@ -12,6 +12,7 @@
 * @access public
 */
 class nusoap_fault extends nusoap_base {
+	$newvariable = "avx";
 	/**
 	 * The fault code (client|server)
 	 * @var string
